@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Same as Case 6.4.1, but we send message not in 3 frames, but in 3 chops of the same message frame.\n<br><br>MESSAGE PARTS:<br>\nPART1 = cebae1bdb9cf83cebcceb5<br>\nPART2 = f4908080<br>\nPART3 = 656469746564<br>\n",
    "droppedByMe": false,
-   "duration": 2031,
+   "duration": 2020,
    "expectation": "The first chop is accepted, we expect to timeout on the first wait. The 2nd chop should be rejected immediately (fail fast on UTF-8). If we timeout, we expect the connection is failed at least then, since the complete message payload is not valid UTF-8.",
    "expected": {
       "NON-STRICT": [
@@ -37,8 +37,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: ffins67DRwbzl0AJd5thvw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Sun, 29 Jan 2023 12:52:11 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: VyprkDj3lhrqgGWl7PEslatxUeQ=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: FFsBlqNoMv3zuVMhaj1M5Q==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Mon, 13 Feb 2023 14:22:35 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: zFMWeRmLieIaMl6g6RNRyT0wtAA=\r\n\r\n",
    "id": "6.4.3",
    "isServer": false,
    "localCloseCode": null,
@@ -63,7 +63,7 @@
    "rxOctetStats": {
       "166": 1
    },
-   "started": "2023-01-29T12:52:12.287Z",
+   "started": "2023-02-13T14:22:35.779Z",
    "trafficStats": null,
    "txFrameStats": {
       "0": 1
@@ -92,14 +92,14 @@
          "RO",
          [
             166,
-            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a2053756e2c203239204a616e20323032332031323a35323a31 ..."
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a204d6f6e2c2031332046656220323032332031343a32323a33 ..."
          ]
       ],
       [
          "TO",
          [
             6,
-            "0195479019c0"
+            "0195ee8969f9"
          ],
          false
       ],
@@ -107,7 +107,7 @@
          "TO",
          [
             11,
-            "892af87dfe5f9a0efb5eac"
+            "203388445746ea375247dc"
          ],
          false
       ],
@@ -124,7 +124,7 @@
          "TO",
          [
             4,
-            "34d71099"
+            "0d7e09e9"
          ],
          false
       ],
@@ -141,7 +141,7 @@
          "TO",
          [
             6,
-            "a523f96da523"
+            "9c8ae01d9c8a"
          ],
          false
       ],
@@ -154,7 +154,7 @@
          0,
          true,
          0,
-         "ad9711ef",
+         "f8ae2964",
          null,
          null,
          false
@@ -163,7 +163,7 @@
          "TO",
          [
             6,
-            "8080ad9711ef"
+            "8080f8ae2964"
          ],
          false
       ],

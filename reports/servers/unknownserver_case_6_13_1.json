@@ -22,8 +22,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: qDn8P06UHOXiKEOxrWYtRQ==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Sun, 29 Jan 2023 12:52:16 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: BKwG3gXdQcN7PZR7veqMKTC181Q=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: 7vgO5NWelHQ1TM92lW1DuA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Mon, 13 Feb 2023 14:22:39 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: 0wnFrsT5F90DmYfXObCWoOvrVIs=\r\n\r\n",
    "id": "6.13.1",
    "isServer": false,
    "localCloseCode": null,
@@ -39,7 +39,7 @@
    "rxOctetStats": {
       "166": 1
    },
-   "started": "2023-01-29T12:52:17.124Z",
+   "started": "2023-02-13T14:22:40.609Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 1
@@ -66,7 +66,7 @@
          "RO",
          [
             166,
-            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a2053756e2c203239204a616e20323032332031323a35323a31 ..."
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a204d6f6e2c2031332046656220323032332031343a32323a33 ..."
          ]
       ],
       [
@@ -78,7 +78,7 @@
          1,
          true,
          0,
-         "e4d56582",
+         "448aa700",
          null,
          null,
          false
@@ -87,7 +87,7 @@
          "TO",
          [
             68,
-            "81bee4d5658224f5a4a226f5a6a220f5a0a222f5a2a22cf5aca22ef5aea228f5a8a22af5aaa234f5b4a236f5b6a230f5b0a232f5b2a23cf5bca23ef5bea238f5 ..."
+            "81be448aa70084aa662086aa642080aa622082aa60208caa6e208eaa6c2088aa6a208aaa682094aa762096aa742090aa722092aa70209caa7e209eaa7c2098aa ..."
          ],
          false
       ],

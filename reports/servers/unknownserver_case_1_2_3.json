@@ -27,8 +27,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: ryflr77S74Sh0nLYZQRZCA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Sun, 29 Jan 2023 12:51:54 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: We+AjXjAlKHzRGoisQVqQjKdb1k=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: cztNBSMxqb0sDdBsD+mMWg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Mon, 13 Feb 2023 14:22:29 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: k7P+N/ve2v5opavVxES1PcVzGas=\r\n\r\n",
    "id": "1.2.3",
    "isServer": false,
    "localCloseCode": 1000,
@@ -55,7 +55,7 @@
       "130": 1,
       "166": 1
    },
-   "started": "2023-01-29T12:51:55.280Z",
+   "started": "2023-02-13T14:22:30.006Z",
    "trafficStats": null,
    "txFrameStats": {
       "2": 1,
@@ -84,7 +84,7 @@
          "RO",
          [
             166,
-            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a2053756e2c203239204a616e20323032332031323a35313a35 ..."
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a204d6f6e2c2031332046656220323032332031343a32323a32 ..."
          ]
       ],
       [
@@ -96,7 +96,7 @@
          2,
          true,
          0,
-         "ec4da71b",
+         "e280120b",
          null,
          null,
          false
@@ -105,7 +105,7 @@
          "TO",
          [
             134,
-            "82fe007eec4da71b12b359e512b359e512b359e512b359e512b359e512b359e512b359e512b359e512b359e512b359e512b359e512b359e512b359e512b359e5 ..."
+            "82fe007ee280120b1c7eecf51c7eecf51c7eecf51c7eecf51c7eecf51c7eecf51c7eecf51c7eecf51c7eecf51c7eecf51c7eecf51c7eecf51c7eecf51c7eecf5 ..."
          ],
          false
       ],
@@ -141,7 +141,7 @@
          8,
          true,
          0,
-         "eb71c332",
+         "86057bda",
          null,
          null,
          false
@@ -150,7 +150,7 @@
          "TO",
          [
             8,
-            "8882eb71c332e899"
+            "888286057bda85ed"
          ],
          false
       ],

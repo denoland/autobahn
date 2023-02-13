@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send small text message with <b>RSV = 1</b>.",
    "droppedByMe": false,
-   "duration": 4,
+   "duration": 5,
    "expectation": "The connection is failed immediately (1002/protocol error), since RSV must be 0, when no extension defining RSV meaning has been negotiated.",
    "expected": {
       "OK": []
@@ -21,8 +21,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: HOVq3WGBnoqf+tcDSGza0g==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Sun, 29 Jan 2023 12:52:00 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: yBpEo/eIFy2ZvEsPnEn6WPJ7UPE=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: gcoFIJjxAylCTRD2kpJ0+A==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Mon, 13 Feb 2023 14:22:30 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: 43wxlMWCrClGmzWOK0Y+pAt7ffU=\r\n\r\n",
    "id": "3.1",
    "isServer": false,
    "localCloseCode": null,
@@ -38,7 +38,7 @@
    "rxOctetStats": {
       "166": 1
    },
-   "started": "2023-01-29T12:52:01.872Z",
+   "started": "2023-02-13T14:22:30.589Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 1
@@ -65,7 +65,7 @@
          "RO",
          [
             166,
-            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a2053756e2c203239204a616e20323032332031323a35323a30 ..."
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a204d6f6e2c2031332046656220323032332031343a32323a33 ..."
          ]
       ],
       [
@@ -77,7 +77,7 @@
          1,
          true,
          1,
-         "4a2b6e22",
+         "a264bc25",
          null,
          null,
          false
@@ -86,7 +86,7 @@
          "TO",
          [
             19,
-            "918d4a2b6e22024e024e25074e55255902466b"
+            "918da264bc25ea01d049cd489c52cd16d04183"
          ],
          false
       ],

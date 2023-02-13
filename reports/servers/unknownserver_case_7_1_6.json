@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send 256K message followed by close then a ping",
    "droppedByMe": false,
-   "duration": 67,
+   "duration": 81,
    "expectation": "Case outcome depends on implementation defined close behavior. Message and close frame are sent back to back. If the close frame is processed before the text message write is complete (as can happen in asynchronous processing models) the close frame is processed first and the text message may not be received or may only be partially recieved.",
    "expected": {
       "NON-STRICT": [],
@@ -28,8 +28,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: fMoR3nlXWyZm6aJ5Q+UzVw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Sun, 29 Jan 2023 12:52:17 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: 7njV+AA2THiXDm+l6WrNxfAUjE8=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: QOgAAPX2LecsSoIxXehbFA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Mon, 13 Feb 2023 14:22:41 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: TQkFb6cUYlGdLLVgUaKo8FgGl/c=\r\n\r\n",
    "id": "7.1.6",
    "isServer": false,
    "localCloseCode": 1000,
@@ -54,11 +54,11 @@
    "rxOctetStats": {
       "166": 1,
       "14480": 1,
-      "22110": 1,
-      "28960": 1,
+      "22150": 1,
+      "28920": 1,
       "65536": 3
    },
-   "started": "2023-01-29T12:52:18.781Z",
+   "started": "2023-02-13T14:22:42.561Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 2,
@@ -90,7 +90,7 @@
          "RO",
          [
             166,
-            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a2053756e2c203239204a616e20323032332031323a35323a31 ..."
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a204d6f6e2c2031332046656220323032332031343a32323a34 ..."
          ]
       ],
       [
@@ -102,7 +102,7 @@
          1,
          true,
          0,
-         "182f9a8d",
+         "e4941e69",
          262144,
          null,
          false
@@ -111,7 +111,7 @@
          "TO",
          [
             262158,
-            "81ff0000000000040000182f9a8d5a6ee9e92f09f0e52a1cd8cc6b4badab7247a8be5a6ee9e92f09f0e52a1cd8cc6b4badab7247a8be5a6ee9e92f09f0e52a1c ..."
+            "81ff0000000000040000e4941e69a6d56d0dd3b27401d6a75c2897f0294f8efc2c5aa6d56d0dd3b27401d6a75c2897f0294f8efc2c5aa6d56d0dd3b27401d6a7 ..."
          ],
          false
       ],
@@ -124,7 +124,7 @@
          1,
          true,
          0,
-         "cec54431",
+         "f4314845",
          null,
          null,
          false
@@ -133,7 +133,7 @@
          "TO",
          [
             18,
-            "818ccec5443186a0285da1e5135ebca92010"
+            "818cf4314845bc5424299b111f2a865d2c64"
          ],
          false
       ],
@@ -146,7 +146,7 @@
          8,
          true,
          0,
-         "fa0df2e5",
+         "39d7ec8d",
          null,
          null,
          false
@@ -155,7 +155,7 @@
          "TO",
          [
             8,
-            "8882fa0df2e5f9e5"
+            "888239d7ec8d3a3f"
          ],
          false
       ],
@@ -168,7 +168,7 @@
          9,
          true,
          0,
-         "b322b562",
+         "1fbdc01e",
          null,
          null,
          false
@@ -177,7 +177,7 @@
          "TO",
          [
             6,
-            "8980b322b562"
+            "89801fbdc01e"
          ],
          false
       ],
@@ -195,7 +195,7 @@
       [
          "RO",
          [
-            28960,
+            28920,
             "4241736437266a6832334241736437266a6832334241736437266a6832334241736437266a6832334241736437266a6832334241736437266a68323342417364 ..."
          ]
       ],
@@ -223,7 +223,7 @@
       [
          "RO",
          [
-            22110,
+            22150,
             "32334241736437266a6832334241736437266a6832334241736437266a6832334241736437266a6832334241736437266a6832334241736437266a6832334241 ..."
          ]
       ],

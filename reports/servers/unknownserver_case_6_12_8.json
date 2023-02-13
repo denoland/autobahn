@@ -22,8 +22,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: lbNV8MduvrzdNcv82r2E9A==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Sun, 29 Jan 2023 12:52:16 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: P61n6mPKgf4imVTE9Pwszw/YS2s=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: mmDZ9qIdmEXSw6JttMxpLg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Mon, 13 Feb 2023 14:22:39 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: qQzOH6irlNpuZh2gE46+qOZBsTQ=\r\n\r\n",
    "id": "6.12.8",
    "isServer": false,
    "localCloseCode": null,
@@ -39,7 +39,7 @@
    "rxOctetStats": {
       "166": 1
    },
-   "started": "2023-01-29T12:52:17.109Z",
+   "started": "2023-02-13T14:22:40.594Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 1
@@ -66,7 +66,7 @@
          "RO",
          [
             166,
-            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a2053756e2c203239204a616e20323032332031323a35323a31 ..."
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a204d6f6e2c2031332046656220323032332031343a32323a33 ..."
          ]
       ],
       [
@@ -78,7 +78,7 @@
          1,
          true,
          0,
-         "ed5950c7",
+         "60375d31",
          null,
          null,
          false
@@ -87,7 +87,7 @@
          "TO",
          [
             69,
-            "81bfed5950c76dd8d24469dcd64065d0da4c61d4de487dc8c25479ccc65075c0ca5c71c4ce584df8f26449fcf66045f0fa6c41f4fe685de8e27459ece67055e0 ..."
+            "81bf60375d31e0b6dfb2e4b2dbb6e8bed7baecbad3bef0a6cfa2f4a2cba6f8aec7aafcaac3aec096ff92c492fb96c89ef79acc9af39ed086ef82d482eb86d88e ..."
          ],
          false
       ],

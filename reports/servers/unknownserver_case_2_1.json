@@ -1,6 +1,6 @@
 {
    "agent": "UnknownServer",
-   "behavior": "FAILED",
+   "behavior": "OK",
    "behaviorClose": "OK",
    "case": 17,
    "closedByMe": true,
@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send ping without payload.",
    "droppedByMe": false,
-   "duration": 7,
+   "duration": 6,
    "expectation": "Pong (with empty payload) is sent in reply to Ping. Clean close with normal code.",
    "expected": {
       "OK": [
@@ -26,17 +26,13 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: 6PdlYC/pa388+mYtJFIkUw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Sun, 29 Jan 2023 12:51:54 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: F0JabA3HsMKgailKWNCDfW4RLBc=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.8.2-0.10.9\r\nHost: host.docker.internal:9001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: b47ido0/7+VJqggOnhtN2A==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nDate: Mon, 13 Feb 2023 14:22:29 GMT\r\nupgrade: websocket\r\nconnection: Upgrade\r\nsec-websocket-accept: knmRT55SUx55IfeQDO6dvS3EyEI=\r\n\r\n",
    "id": "2.1",
    "isServer": false,
    "localCloseCode": 1000,
    "localCloseReason": null,
    "received": [
-      [
-         "pong",
-         ""
-      ],
       [
          "pong",
          ""
@@ -46,17 +42,18 @@
    "remoteCloseReason": null,
    "reportCompressionRatio": false,
    "reportTime": false,
-   "result": "Actual events differ from any expected.",
+   "result": "Actual events match at least one expected.",
    "resultClose": "Connection was properly closed",
    "rxFrameStats": {
       "8": 1,
-      "10": 2
+      "10": 1
    },
    "rxOctetStats": {
-      "4": 2,
+      "2": 1,
+      "4": 1,
       "166": 1
    },
-   "started": "2023-01-29T12:51:55.440Z",
+   "started": "2023-02-13T14:22:30.192Z",
    "trafficStats": null,
    "txFrameStats": {
       "8": 1,
@@ -85,7 +82,7 @@
          "RO",
          [
             166,
-            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a2053756e2c203239204a616e20323032332031323a35313a35 ..."
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a446174653a204d6f6e2c2031332046656220323032332031343a32323a32 ..."
          ]
       ],
       [
@@ -97,7 +94,7 @@
          9,
          true,
          0,
-         "97e9e68e",
+         "89feea4f",
          null,
          null,
          false
@@ -106,7 +103,7 @@
          "TO",
          [
             6,
-            "898097e9e68e"
+            "898089feea4f"
          ],
          false
       ],
@@ -117,8 +114,8 @@
       [
          "RO",
          [
-            4,
-            "8a008a00"
+            2,
+            "8a00"
          ]
       ],
       [
@@ -142,7 +139,7 @@
          8,
          true,
          0,
-         "58204028",
+         "b7147e77",
          null,
          null,
          false
@@ -151,21 +148,9 @@
          "TO",
          [
             8,
-            "8882582040285bc8"
+            "8882b7147e77b4fc"
          ],
          false
-      ],
-      [
-         "RF",
-         [
-            0,
-            ""
-         ],
-         10,
-         true,
-         0,
-         false,
-         null
       ],
       [
          "RO",
